@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jersey+10&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    background-color: #EEEEEE;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+nav h3{
+    margin-left: 20px;
+    color: #1A4870;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+}
+.navegacion{
+    display: flex;
+    justify-content:flex-end;
+    gap: 2px 20px;
+}
+.link{
+    text-decoration: none;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.link:active{
+    color: #1F316F;
+}
+.titulo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 50vh;
+    background-image: linear-gradient(0deg, rgba(5, 4, 4, 0.5), rgba(12, 11, 11, 0.315)),url(assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 98%;
+}
+.tituloLetra{
+    background: none;
+    color: aliceblue;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 45px;
+    font-weight: 200;
+    margin-bottom: 55px;
+}
+#boton{
+    width: 10%;
+    height: 15%;
+    background-color: #1F316F;
+    color: #F9DBBA;
+    font-family: "Kanit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid #1F316F;
+    text-align: center;
+    height: 24px;
+}
+
+#boton:hover{
+    background-color: #5B99C2;
+    color: #F9DBBA;
+    font-weight: 800;
+    border: 1px solid #1A4870;
+}
+.somos{
+    display: flex;
+    margin: 30px;
+}
+
+.imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 2px;
+    box-shadow: #1a487069 5px 5px 15px;
+}
+
+.contenido{
+    text-align: justify;
+    font-family: "Kanit", sans-serif;
+    color: #1F316F;
+}
+.contendido,span{
+    color: #5B99C2;
+}
+.contenedor1{
+    text-align: center;
+    background-color: #1E201E;
+    margin-top: 40px;
+}
+.programs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #1E201E;
+    margin-top: 20px;
+}
+.nuestrosprog{
+    background: none;
+    padding-top: 15px;
+    color: whitesmoke;
+    font-family: "Jersey 10", sans-serif ;
+    font-size: 34px;
+    font-weight: 300;
+}
+
+.cursos1{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(12, 11, 11, 0.315)),url(assets/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cursos2{
+    background-image: url(assets/backend.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    border-radius: 10px;
+    opacity: 95%;
+}
+.cursos3{
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(12, 11, 11, 0.315)), url(assets/python.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.letras{
+    background: none;
+    color: white;
+    margin: 25px;
+    font-family: "Kanit", sans-serif;
+    font-size: 12px;
+}
+.letras1{
+    background: none;
+    color: antiquewhite;
+    font-family:"Inter", sans-serif;
+}
+.boton{
+    margin-bottom: 10px;
+    width: 70px;
+    border-radius: 5px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    background-color: #1F316F;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.boton:hover{
+    background-color: #0f193f;
+}
+
+.caracteristicas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Kanit", sans-serif;
+    margin: 20px;
+
+}
+ul li{
+    list-style-type: square;
+}
+.final h2{
+    background: none;
+}
+.final{
+    height: 130px;
+    background-color: #1E201E;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: azure;
+    font-family: "Kanit", sans-serif;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-family: "Kanit", sans-serif;
+    color: #0f193f;
+}
+footer h4{
+    margin: 0;
+    text-decoration: none;
+}
+footer p{
+    margin: 0;
+}
+
+@media (max-width:480px){
+    .navegacion{
+        display: flex;
+        justify-content:center;
+        gap: 2px 20px;
+    }
+    .titulo{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 20vh;
+        background-image: linear-gradient(0deg, rgba(5, 4, 4, 0.5), rgba(12, 11, 11, 0.315)),url(assets/header.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        opacity: 98%;
+    }
+    .tituloLetra{
+        background: none;
+        color: aliceblue;
+        font-family: "Jersey 10", sans-serif;
+        font-size: 40px;
+        font-weight: 200;
+        margin-bottom: 40px;
+    }
+    .somos{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 30px;
+    }
+    
+    .imagen{
+        display: flex;
+        width: 300px;
+        height: 250px;
+        border-radius: 5px;
+        box-shadow: #1a487069 5px 5px 15px;
+        align-items: center;
+    }
+    .programs{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        background-color: #1E201E;
+        margin-top: 20px;
+    }
+}
