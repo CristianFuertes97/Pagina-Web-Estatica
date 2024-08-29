@@ -222,9 +222,30 @@ footer p{
         background: none;
         color: aliceblue;
         font-family: "Jersey 10", sans-serif;
-        font-size: 40px;
+        font-size: 24px;
         font-weight: 200;
-        margin-bottom: 40px;
+        margin-bottom: 10px;
+    }
+    #boton{
+        width: 20%;
+        height: 15%;
+        background-color: #1F316F;
+        color: #F9DBBA;
+        font-family: "Kanit", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 500;
+        border-radius: 5px;
+        cursor: pointer;
+        border: 1px solid #1F316F;
+        text-align: center;
+        height: 24px;
+    }
+    
+    #boton:hover{
+        background-color: #5B99C2;
+        color: #F9DBBA;
+        font-weight: 800;
+        border: 1px solid #1A4870;
     }
     .somos{
         display: flex;
@@ -235,10 +256,11 @@ footer p{
     
     .imagen{
         display: flex;
-        width: 300px;
+        width: 250px;
         height: 250px;
         border-radius: 5px;
         box-shadow: #1a487069 5px 5px 15px;
+        justify-content: center;
         align-items: center;
     }
     .programs{
